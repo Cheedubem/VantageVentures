@@ -303,6 +303,7 @@ header {
 .news-section {
   width: 100%;
   height: 80vh;
+  /* margin-bottom: -4rem; */
 }
 footer {
   background-color: var(--clr-primary);
@@ -361,6 +362,12 @@ footer a {
   .why-section .why-reasons-container {
     flex-wrap: wrap;
     gap: 1.5rem;
+  }
+  footer {
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 15px;
+    text-align: center;
   }
 }
 
