@@ -268,7 +268,7 @@ header {
 }
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion-wrapper {
-  margin: 4rem 0;
+  margin: 3rem 0;
 }
 .accordion {
   background-color: #eee;
@@ -300,24 +300,22 @@ header {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
-
-.counter-widget {
+.news-section {
+  width: 100%;
+  height: 80vh;
+}
+footer {
+  background-color: var(--clr-primary);
   display: flex;
-  justify-content: space-around;
-  margin-top: 50px;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+  align-items: center;
+  color: var(--clr-light);
 }
-
-.counter {
-  text-align: center;
+footer a {
+  text-decoration: none;
+  color: var(--clr-light);
 }
-
-.count {
-  font-size: 36px;
-  font-weight: bold;
-  color: #007bff;
-  margin-bottom: 20px;
-}
-
 @media (max-width: 320px) {
 }
 @media (max-width: 375px) {

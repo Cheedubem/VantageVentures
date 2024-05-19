@@ -349,6 +349,7 @@
         us via email. We're dedicated to ensuring your satisfaction and
         providing prompt and reliable support whenever you need it.
       </p>
+
       <!-- Faq Accordion -->
       <div class="accordion-wrapper">
         <button class="accordion">What is investing?</button>
@@ -481,35 +482,73 @@
           </p>
         </div>
       </div>
-      <!-- Faq Accordion End -->
     </section>
-    <section class="news-section">
-      <!-- TradingView Widget BEGIN -->
-      <div class="tradingview-widget-container">
-        <div class="tradingview-widget-container__widget"></div>
-        <div class="tradingview-widget-copyright"></div>
-      </div>
-      <!-- TradingView Widget END -->
-    </section>
+    <!-- Faq Accordion End -->
 
-    <footer></footer>
+    <!-- TradingView Widget BEGIN -->
+    <section class="news-section">
+      <script
+        type="text/javascript"
+        src="https://s3.tradingview.com/external-embedding/embed-widget-timeline.js"
+        async
+      >
+          {
+          "feedMode": "all_symbols",
+          "isTransparent": false,
+          "displayMode": "compact",
+          "width": "100%",
+          "height": "100%",
+          "colorTheme": "light",
+          "locale": "en"
+        }
+      </script>
+    </section>
+    <!-- TradingView Widget END -->
+
+    <div style="height: 40px; padding: 0px; margin: 0px; width: 100%">
+      <iframe
+        src="https://widget.coinlib.io/widget?type=horizontal_v2&theme=light&pref_coin_id=1505&invert_hover="
+        width="100%"
+        height="36px"
+        scrolling="auto"
+        marginwidth="0"
+        marginheight="0"
+        frameborder="0"
+        border="0"
+        style="border: 0; margin: 0; padding: 0"
+      ></iframe>
+    </div>
+    <div
+      style="
+        color: #ffffff;
+        line-height: 14px;
+        font-weight: 400;
+        font-size: 13px;
+        box-sizing: border-box;
+        padding: 2px 6px;
+        width: 100%;
+        font-family: poppins, Tahoma, Arial, sans-serif;
+      "
+    >
+      <a
+        href="https://coinlib.io"
+        target="_blank"
+        style="
+          font-weight: 500;
+          color: #ffffff;
+          text-decoration: none;
+          font-size: 11px;
+        "
+        >Cryptocurrency Prices</a
+      >&nbsp;by Coinlib
+    </div>
+
+    <footer>
+      <p>Copyright © 2024 Vantage Ventures . All rights reserved.</p>
+      <a href="#">Privacy Policy • Terms of Service</a>
+    </footer>
 
     <!-- Scripts Start-->
-    <script
-      type="text/javascript"
-      src="https://s3.tradingview.com/external-embedding/embed-widget-timeline.js"
-      async
-    >
-        {
-        "feedMode": "all_symbols",
-        "isTransparent": false,
-        "displayMode": "adaptive",
-        "width": "100%",
-        "height": "100%",
-        "colorTheme": "light",
-        "locale": "en"
-      }
-    </script>
     <script src="src/app.js"></script>
     <script src="https://cdn.lordicon.com/lordicon.js"></script>
     <script
