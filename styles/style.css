@@ -1,6 +1,7 @@
 header {
   padding: 1rem 2rem;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.074);
+  border-bottom: 1px solid #e6e6e6;
 }
 .logo-container {
   width: 20%;
@@ -57,6 +58,7 @@ header {
   font-weight: 300;
 }
 .hero-content p {
+  /* text-wrap: pretty; */
   margin: 1rem 0;
 }
 .hero-content a {
@@ -65,7 +67,7 @@ header {
 }
 .hero-section .hero-image {
   flex-grow: 1;
-  width: 60%;
+  width: 50%;
   background-image: url(../assets/heroimage.jpg);
   background-position: center;
   background-size: cover;
@@ -353,15 +355,29 @@ footer a {
   }
   .hero-section {
     flex-wrap: wrap;
+    text-align: center;
   }
   .hero-image {
     background-color: aquamarine;
     width: 100%;
     height: 30rem;
   }
+  .hero-content h1 {
+    font-size: 1rem;
+  }
+  .hero-content a {
+    display: inline-block;
+    margin-top: 1rem;
+  }
+  .why-container p {
+    width: 80%;
+  }
   .why-section .why-reasons-container {
     flex-wrap: wrap;
     gap: 1.5rem;
+  }
+  .what-we-do-section .container {
+    flex-wrap: wrap;
   }
   footer {
     flex-direction: column;
