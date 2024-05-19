@@ -1,0 +1,68 @@
+:root {
+  --clr-primary: #05222e;
+  --clr-secondary: #072e3f;
+  --clr-light: #ffffff;
+  --clr-dark: #020617;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: calc(1em + 0.5rem);
+  /* outline: 1px solid red; */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--clr-primary);
+}
+
+a {
+  text-decoration: none;
+  color: var(--clr-dark);
+}
+
+li {
+  list-style: none;
+}
+
+.flex-vertical {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-horizonatl {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-dark {
+  color: var(--clr-light);
+  background-color: var(--clr-primary);
+  padding: 10px 24px;
+  transition: ease 0.2s;
+}
+.btn-dark:hover {
+  color: var(--clr-primary);
+  background-color: var(--clr-light);
+  outline: 1px solid var(--clr-primary);
+}
+.btn-light {
+  outline: 1px solid var(--clr-primary);
+  color: var(--clr-primary);
+  background-color: var(--clr-light);
+  padding: 10px 24px;
+  transition: ease 0.2s;
+}
+.btn-light:hover {
+  color: var(--clr-light);
+  background-color: var(--clr-primary);
+  outline: 1px solid var(--clr-light);
+}

@@ -1,0 +1,390 @@
+header {
+  padding: 1rem 2rem;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.074);
+}
+.logo-container {
+  width: 20%;
+}
+.logo-container img {
+  max-width: 100%;
+  height: auto;
+}
+.nav-list {
+  gap: 2rem;
+}
+.nav-list a:hover {
+  text-underline-position: below;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
+.cta-buttons {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+}
+.menu-button {
+  position: absolute;
+  top: 1.2rem;
+  right: 3rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 31px;
+  height: 21px;
+}
+.menu-button .bar {
+  height: 2px;
+  width: 100%;
+  background-color: var(--clr-primary);
+}
+.hero-section {
+  display: flex;
+}
+.hero-section span {
+  background-color: var(--clr-primary);
+  color: var(--clr-light);
+  padding: 4px 10px;
+}
+.hero-content {
+  flex-grow: 1;
+  padding: 4rem 2rem;
+}
+.hero-content h1 {
+  text-wrap: pretty;
+  margin: 1rem 0;
+  font-size: 3rem;
+  font-weight: 300;
+}
+.hero-content p {
+  margin: 1rem 0;
+}
+.hero-content a {
+  display: inline-block;
+  margin-top: 3rem;
+}
+.hero-section .hero-image {
+  flex-grow: 1;
+  width: 60%;
+  background-image: url(../assets/heroimage.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.why-section {
+  text-align: center;
+  padding: 3rem 2rem;
+  background-color: var(--clr-primary);
+  color: var(--clr-light);
+}
+.why-section span {
+  background-color: var(--clr-secondary);
+  margin: auto 0;
+  padding: 4px 10px;
+}
+.why-section .why-container h1 {
+  font-size: 2rem;
+  font-weight: 300;
+  padding-top: 1rem;
+}
+.why-section a {
+  text-align: left;
+  margin-left: 0;
+}
+.why-container p {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 300;
+  padding-top: 1rem;
+  width: 50%;
+}
+.why-section .why-reasons-container {
+  display: flex;
+  gap: 2rem;
+  padding: 4rem 0;
+}
+.reason-item {
+  text-align: left;
+  background-color: var(--clr-secondary);
+  outline: 1px solid #f1f1f141;
+  padding: 2rem;
+  transition: ease 0.2s;
+}
+.reason-item:hover {
+  outline: 0.5px double var(--clr-secondary);
+  outline-offset: 10px;
+  transform: translatey(-10px);
+}
+.reason-item .icon-container {
+  display: inline-block;
+  background-color: #f1f1f113;
+  outline: 1px solid #f1f1f141;
+  padding: 10px;
+}
+.reason-item h3 {
+  padding: 10px 0;
+}
+.counter {
+  padding: 4rem 0;
+}
+.what-we-do-section {
+  background-color: #eeeeee;
+  padding: 4rem 2rem;
+}
+.what-we-do-section span {
+  background-color: var(--clr-light);
+  color: var(--clr-primary);
+  padding: 4px 10px;
+}
+.what-we-do-section h1 {
+  padding-top: 1rem;
+}
+.what-we-do-section .container {
+  background-color: var(--clr-light);
+  gap: 3rem;
+  margin: 4rem 0;
+  padding: 4rem;
+}
+.what-we-do-section .text-content {
+  gap: 3rem;
+}
+.what-we-do-section .text-content span {
+  background-color: var(--clr-primary);
+  color: var(--clr-light);
+  padding: 4px 10px;
+}
+.what-we-do-section .text-content h1 {
+  padding-top: 1rem;
+}
+.what-we-do-section .text-content p {
+  padding-bottom: 2rem;
+}
+.what-we-do-section .text-content,
+.image {
+  flex: 1;
+}
+.what-we-do-section .image img {
+  max-width: 90%;
+}
+.steps-section {
+  text-align: center;
+  background-color: var(--clr-primary);
+  color: var(--clr-light);
+  padding: 2rem;
+  padding-bottom: 6rem;
+}
+.steps-section span {
+  background-color: var(--clr-secondary);
+  padding: 4px 10px;
+}
+.steps-section h1 {
+  font-size: 2rem;
+  font-weight: 300;
+  padding-top: 1rem;
+}
+.steps-container {
+  padding: 4rem 0;
+}
+.step {
+  text-align: left;
+  background-color: var(--clr-secondary);
+  padding: 4rem;
+  border: 1px solid #ffffff3c;
+}
+.rely-on {
+  height: fit-content;
+  color: var(--clr-primary);
+  align-items: center;
+  background-image: url(../assets/billboard.jpg);
+  background-position: right;
+  background-size: 55%;
+  background-repeat: no-repeat;
+  padding: 3rem 2rem;
+}
+.rely-on p {
+  width: 40%;
+}
+.rely-on a {
+  display: inline-block;
+}
+.testmonials {
+  text-align: center;
+  background-color: var(--clr-primary);
+  padding: 3rem 2rem;
+  color: var(--clr-light);
+}
+.testmonials span {
+  background-color: var(--clr-secondary);
+  padding: 4px 10px;
+}
+.testmonials h1 {
+  font-size: 2rem;
+  font-weight: 300;
+  padding-top: 1rem;
+}
+.testmonials-text {
+  padding: 2rem 0;
+}
+.testmonials-item {
+  text-align: left;
+  gap: 1rem;
+}
+.testmonials-item img {
+  width: 80px;
+  height: auto;
+}
+.testmonials-item h4 {
+  padding: 1rem 0;
+}
+.testmonials-item span {
+  background-color: var(--clr-light);
+  color: var(--clr-primary);
+  font-weight: 600;
+  font-size: 10px;
+}
+.testmonials-item .person {
+  background-color: var(--clr-secondary);
+  padding: 2rem;
+  width: 30%;
+}
+.faq-section {
+  background-color: var(--clr-light);
+  color: var(--clr-primary);
+  padding: 3rem 2rem;
+}
+.faq-section {
+  background-color: var(--clr-light);
+  color: var(--clr-primary);
+}
+.faq-section span {
+  background-color: var(--clr-primary);
+  color: var(--clr-light);
+  padding: 4px 10px;
+}
+.faq-section h1 {
+  font-size: 2rem;
+  font-weight: 300;
+  padding-top: 1rem;
+}
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion-wrapper {
+  margin: 4rem 0;
+}
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+  background-color: var(--clr-primary);
+  color: var(--clr-light);
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.counter-widget {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.counter {
+  text-align: center;
+}
+
+.count {
+  font-size: 36px;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 320px) {
+}
+@media (max-width: 375px) {
+}
+@media (max-width: 425px) {
+}
+@media (max-width: 768px) {
+  header nav {
+    flex-direction: column;
+  }
+  .logo-container {
+    align-self: flex-start;
+    width: 35%;
+  }
+  .menu-button {
+    display: flex;
+  }
+  .nav-list {
+    display: none;
+    align-self: flex-end;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    gap: 1.5rem;
+  }
+  .nav-list.toggled {
+    display: flex;
+  }
+  .cta-buttons {
+    display: none;
+    flex-direction: column;
+  }
+  .cta-buttons.toggled {
+    display: flex;
+  }
+  .hero-section {
+    flex-wrap: wrap;
+  }
+  .hero-image {
+    background-color: aquamarine;
+    width: 100%;
+    height: 30rem;
+  }
+  .why-section .why-reasons-container {
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .nav-list {
+    gap: 1.5rem;
+  }
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+  .hero-content p {
+    font-size: 14px;
+    text-wrap: pretty;
+  }
+  .why-section .why-container h1 {
+    font-size: 1.8rem;
+  }
+  .why-section .why-container p {
+    font-size: 14px;
+  }
+  .why-section .why-reasons-container {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
