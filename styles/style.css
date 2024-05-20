@@ -287,7 +287,7 @@ header {
   font-weight: 600;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* Add a background color to the button if it is clicked on(add the .active class with JS), and when you move the mouse over it (hover) */
 .active,
 .accordion:hover {
   background-color: var(--clr-primary);
@@ -331,7 +331,7 @@ footer a {
   }
   .logo-container {
     align-self: flex-start;
-    width: 35%;
+    width: 40%;
   }
   .menu-button {
     display: flex;
@@ -363,7 +363,7 @@ footer a {
     height: 30rem;
   }
   .hero-content h1 {
-    font-size: 1rem;
+    font-size: 1.8rem;
   }
   .hero-content a {
     display: inline-block;
@@ -376,9 +376,47 @@ footer a {
     flex-wrap: wrap;
     gap: 1.5rem;
   }
-  .what-we-do-section .container {
-    flex-wrap: wrap;
+  .why-section .why-container h1 {
+    font-size: 1.8rem;
   }
+  .what-we-do-section {
+    text-align: center;
+  }
+  .what-we-do-section p {
+    padding-top: 1rem;
+    text-wrap: balance;
+  }
+  .what-we-do-section .container {
+    flex-direction: column;
+    margin: 4rem 0;
+    padding: 2rem;
+  }
+  .what-we-do-section .image img {
+    max-width: 100%;
+  }
+  .steps-container {
+    flex-direction: column;
+  }
+  .rely-on {
+    text-align: center;
+    background-image: none;
+    padding: 4rem 2rem;
+  }
+  .rely-on p {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .rely-on a {
+    display: inline-block;
+    margin-top: 2rem;
+  }
+  .testmonials-item {
+    flex-direction: column;
+  }
+  .testmonials-item .person {
+    width: 100%;
+  }
+
   footer {
     flex-direction: column;
     gap: 2rem;
@@ -392,7 +430,7 @@ footer a {
     gap: 1.5rem;
   }
   .hero-content h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .hero-content p {
     font-size: 14px;
