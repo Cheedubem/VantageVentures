@@ -194,20 +194,30 @@ header {
   border: 1px solid #ffffff3c;
 }
 .rely-on {
-  height: fit-content;
+  display: flex;
   color: var(--clr-primary);
   align-items: center;
-  background-image: url(../assets/billboard.jpg);
-  background-position: right;
-  background-size: 55%;
-  background-repeat: no-repeat;
-  padding: 3rem 2rem;
+  width: 100%;
+  gap: 2rem;
+}
+.rely-on-warpper {
+  flex-grow: 1;
+  padding-left: 2rem;
+  width: 40%;
 }
 .rely-on p {
-  width: 40%;
+  padding: 1rem 0;
 }
 .rely-on a {
   display: inline-block;
+}
+.rely-on-image {
+  flex-grow: 1;
+  width: 50%;
+  height: 500px;
+  background-image: url(../assets/billboard.jpg);
+  background-position: center;
+  background-size: cover;
 }
 .testmonials {
   text-align: center;
@@ -263,10 +273,8 @@ header {
   color: var(--clr-light);
   padding: 4px 10px;
 }
-.faq-section h1 {
-  font-size: 2rem;
-  font-weight: 300;
-  padding-top: 1rem;
+.faq-section h2 {
+  padding: 1rem 0;
 }
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion-wrapper {
@@ -320,11 +328,28 @@ footer a {
   color: var(--clr-light);
 }
 @media (max-width: 320px) {
+  .menu-button {
+    display: flex;
+    top: 0.8rem;
+    right: 1.5rem;
+  }
 }
 @media (max-width: 375px) {
+  .menu-button {
+    display: flex;
+    top: 0.8rem;
+    right: 1.5rem;
+  }
 }
 @media (max-width: 425px) {
+  .menu-button {
+    display: flex;
+    top: 0.8rem;
+    right: 1.5rem;
+  }
 }
+
+/* TABLET SCREEN SIZE */
 @media (max-width: 768px) {
   header nav {
     flex-direction: column;
@@ -336,11 +361,17 @@ footer a {
   .menu-button {
     display: flex;
   }
+  .menu-button .bar {
+    height: 2px;
+    width: 80%;
+    background-color: var(--clr-primary);
+  }
   .nav-list {
     display: none;
     align-self: flex-end;
     flex-direction: column;
     padding-bottom: 1rem;
+    padding-top: 2rem;
     gap: 1.5rem;
   }
   .nav-list.toggled {
@@ -380,7 +411,7 @@ footer a {
     font-size: 1.8rem;
   }
   .what-we-do-section {
-    text-align: center;
+    /* text-align: center; */
   }
   .what-we-do-section p {
     padding-top: 1rem;
@@ -398,9 +429,14 @@ footer a {
     flex-direction: column;
   }
   .rely-on {
-    text-align: center;
-    background-image: none;
-    padding: 4rem 2rem;
+    flex-direction: column;
+    padding-top: 2rem;
+  }
+  .rely-on-warpper {
+    width: 100%;
+  }
+  .rely-on-image {
+    width: 100%;
   }
   .rely-on p {
     width: 100%;

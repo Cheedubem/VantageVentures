@@ -14,11 +14,13 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   font-family: "Poppins", sans-serif;
   color: var(--clr-primary);
+  overflow-x: hidden;
 }
 
 a {
