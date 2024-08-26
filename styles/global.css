@@ -38,7 +38,7 @@ li {
   align-items: center;
 }
 
-.flex-horizonatl {
+.flex-horizontal {
   display: flex;
   justify-content: space-between;
   flex-direction: column;

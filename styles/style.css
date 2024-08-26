@@ -185,7 +185,7 @@ header {
   padding-top: 1rem;
 }
 .steps-container {
-  padding: 4rem 0;
+  padding: 2rem 0;
 }
 .step {
   text-align: left;
@@ -356,14 +356,12 @@ footer a {
   }
   .logo-container {
     align-self: flex-start;
-    width: 40%;
+    width: 60%;
   }
   .menu-button {
     display: flex;
   }
   .menu-button .bar {
-    height: 2px;
-    width: 80%;
     background-color: var(--clr-primary);
   }
   .nav-list {
@@ -411,7 +409,7 @@ footer a {
     font-size: 1.8rem;
   }
   .what-we-do-section {
-    text-align: center;
+    text-align: left;
   }
   .what-we-do-section p {
     padding-top: 1rem;
@@ -425,6 +423,9 @@ footer a {
   .what-we-do-section .image img {
     max-width: 100%;
   }
+  .steps-section h1 {
+    font-size: 1.8rem;
+  }
   .steps-container {
     flex-direction: column;
   }
@@ -434,9 +435,11 @@ footer a {
   }
   .rely-on-warpper {
     width: 100%;
+    padding: 0 1rem;
   }
   .rely-on-image {
-    width: 100%;
+    width: 0;
+    height: 0;
   }
   .rely-on p {
     width: 100%;
