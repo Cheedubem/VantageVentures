@@ -38,7 +38,7 @@
   padding: 2rem 0;
 }
 .about-why-section span {
-  margin: auto 0;
+  /* margin: auto 0; */
   background-color: var(--clr-primary);
   color: var(--clr-light);
   padding: 4px 10px;
@@ -123,9 +123,9 @@
 /*  */
 
 /* MEDIA QUERIES */
-@media (max-width: 425px) {
+@media (max-width: 768px) {
   .about-section {
-    padding: 1rem 0;
+    padding: 1rem;
   }
   .about-section p {
     text-wrap: balance;
