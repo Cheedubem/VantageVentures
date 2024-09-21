@@ -12,6 +12,10 @@
   /* outline: 1px solid red; */
 }
 
+img {
+  border-radius: 1rem;
+}
+
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;

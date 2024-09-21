@@ -27,101 +27,91 @@
   text-align: center;
   /* font-size: 2rem; */
 }
-.steps-section > p {
-  padding-top: 1rem;
-  margin: 0 auto;
+.our-mission {
+  padding: 4rem 2rem;
   text-align: center;
-  width: 80%;
+  background-color: #ececec;
 }
-.about-why-section {
+.our-mission span,
+h1 {
   text-align: center;
-  padding: 2rem 0;
 }
-.about-why-section span {
-  /* margin: auto 0; */
-  background-color: var(--clr-primary);
-  color: var(--clr-light);
+.our-mission span {
+  color: #fff;
+  background-color: var(--clr-secondary);
   padding: 4px 10px;
 }
-.about-why-section > h1 {
-  text-align: center;
+.our-mission h1 {
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: 300;
   padding-top: 1rem;
 }
-.about-why-section > p {
-  display: block;
-  margin: 0 auto;
-  padding-top: 1rem;
-  width: 80%;
-}
-.about-why-section-container {
-  text-align: left;
+.our-mission-container {
+  width: 100%;
   display: flex;
+  padding: 4rem 0;
+  gap: 4rem;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  padding: 0 2rem;
-  height: 100vh;
 }
-
-.left-column {
-  flex: 1;
+.our-mission-image {
+  width: 100%;
+  height: auto;
+}
+.our-mission-image img {
+  width: 500px;
+  height: auto;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.074);
+}
+.our-mission-content {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
-.left-column span {
-  background-color: var(--clr-light);
-  color: var(--clr-primary);
+.our-mission-content p {
+  text-align: left;
 }
-
-.counter {
-  padding-bottom: 20px;
-  /* outline: 1px solid #000; */
-  border-radius: 1rem;
-}
-
-.left-column a {
+.our-mission-content a {
+  margin-top: 2rem;
+  display: inline-block;
   width: fit-content;
-  /* margin-top: 2rem;     */
 }
-
-.right-column {
-  flex: 1;
+.our-team-section {
+  padding: 4rem 0;
+  text-align: center;
+}
+.our-team-section span {
+  color: #fff;
+  background-color: var(--clr-secondary);
+  padding: 4px 10px;
+}
+.our-team-section h1 {
+  font-size: 2rem;
+  font-weight: 300;
+  padding-top: 1rem;
+}
+.team-members-container {
   display: flex;
-  align-items: center;
+  padding: 2rem 0;
   justify-content: center;
-  /* background-color: #f0f0f0; */
+  align-items: center;
 }
-
-.right-column img {
-  max-width: 80%;
-  max-height: 80%;
+.team-member-image {
+  width: 80%;
   border-radius: 1rem;
+  height: auto;
 }
-
-/* Fade in tabs */
-@-webkit-keyframes fadeEffect {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+.trading-view-chart {
+  width: 100%;
 }
-
-@keyframes fadeEffect {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+.what-we-do-section h1 {
+  text-align: left;
 }
-/* TABS STYLING ENDS */
 
 /*  */
-
+/*  */
+/*  */
 /* MEDIA QUERIES */
 @media (max-width: 768px) {
   .about-section {
@@ -132,12 +122,26 @@
     padding-bottom: 1rem;
   }
   .about-image {
-    margin-bottom: -3rem;
-    min-height: 40vh;
+    margin-bottom: -2rem;
+    min-height: 50vh;
     max-width: 100%;
     background-image: url(../assets/billboard.jpg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+  }
+  .our-mission {
+    text-align: left;
+  }
+  .our-mission h1 {
+    text-align: left;
+  }
+  .our-mission-container {
+    flex-direction: column;
+    padding: 2rem 0;
+  }
+  .our-mission-image img {
+    width: 100%;
+    height: auto;
   }
 }
